@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Rows added for UCD-001, US-001, UC-001, SSD-001, DM-001, DM-002, ADR-0001 and the source files; Last Reviewed updated up to RC-030<br>Version History rows added for edits made since the first version (the git history holds each edit) | [dfaa840] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Rows added for UCD-001, US-001, UC-001, SSD-001, DM-001, DM-002, ADR-0001 and the source files; Last Reviewed updated up to RC-030<br>Version History rows added for edits made since the first version (the git history holds each edit) | [dfaa840] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-033 (RC-026 to RC-033 added)<br>Version History row added for each change batch since the first version | pending |
 
 ---
 
@@ -69,7 +69,6 @@ updated whenever an artifact instance is created or reviewed.
 [RC-008]: ./reviews/rc-008-python-constants.md
 [RC-009]: ./reviews/rc-009-ci-workflow-yaml.md
 [RC-010]: ./reviews/rc-010-ci-workflow.md
-[f1b3c03]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/f1b3c034dc3880b7884646b4a4ed28e5f98fbcd3
 [UCD-001]: ../use-case-diagram.md
 [US-001]: ../user-stories.md
 [UC-001]: ../uc-001/uc.md
