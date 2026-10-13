@@ -112,6 +112,7 @@ docs/                     business case, plan, milestones, models, reviews, ADRs
 docs/images/              screenshots used by this README and the wiki
 src/squirrel/             the package: census.py, cli.py, constants.py
 tests/                    pytest tests
+wiki/                     wiki pages in English, Danish (.da) and Bahasa Malaysia (.ms)
 Doxyfile                  Doxygen configuration
 pyproject.toml            project configuration (Python >=3.13, no runtime dependencies)
 squirrel_count.csv        the result of the assignment
