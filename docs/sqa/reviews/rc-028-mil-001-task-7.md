@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [6fb75dd] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [6fb75dd] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Scope names the earlier records RC-003, RC-020 and says the other criteria still hold | [be2e171] |
 
 ---
 
@@ -17,7 +18,7 @@
 
 - Instance reviewed: [MIL-001]
 - Checklist used: [QC-MIL-001] and [QC-LANG-001]
-- Scope: delta re-review of criteria 1 and 2 and criteria 1, 2, 6, 7, 8 of QC-LANG-001: task 7 added to the Tasks section
+- Scope: delta re-review of criteria 1 and 2 and criteria 1, 2, 6, 7, 8 of QC-LANG-001: task 7 added to the Tasks section; earlier records RC-003, RC-020
 - Language and domain: en / it
 - Language reviewer: none (the stand-in reviewer reads English and the `it` domain)
 - Mode: autonomous, not independent (reviewer: AI as stand-in for S01)
@@ -41,7 +42,7 @@
 
 ## Overall Verdict
 
-Go — one task row was added at the request of S01 in chat; the gate criteria and deliverable are unchanged.
+Go — one task row was added at the request of S01 in chat; the gate criteria and deliverable are unchanged. The other criteria of the checklist and of QC-LANG-001 were passed in RC-003, RC-020 and are unaffected by this change.
 
 ## Action Items
 
@@ -55,3 +56,4 @@ Go — one task row was added at the request of S01 in chat; the gate criteria a
 [QC-MIL-001]: ../../../framework/qc/artifacts/qc-milestones-gateways.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [6fb75dd]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/6fb75ddb8671636869b859d8718d3f3f8783659c
+[be2e171]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/be2e171f38de55340bb8236fd6b61f1b651ebd64
