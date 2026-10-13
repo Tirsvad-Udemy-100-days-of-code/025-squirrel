@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Rows added for UCD-001, US-001, UC-001, SSD-001, DM-001, DM-002, ADR-0001 and the source files; Last Reviewed updated up to RC-030<br>Version History rows added for edits made since the first version (the git history holds each edit) | pending |
 
 ---
 
