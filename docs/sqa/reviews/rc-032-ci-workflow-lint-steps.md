@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [e406d65] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Link definitions added for the IDs cited in the text | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Link definitions added for the IDs cited in the text | [5b948e5] |
 
 ---
 
@@ -50,3 +50,4 @@ Go — the changed rows pass; the other rows of RC-010, RC-025 and RC-030 still 
 [QC-WF-001]: ../../../framework/qc/code/qc-workflow.md
 [e406d65]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/e406d65f6a53332750204ec3fd876ab2daa2bbd2
 [QC-YML-001]: ../../../framework/qc/code/qc-yaml.md
+[5b948e5]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/5b948e5a66bbcea5ef062f4557f47aae113a4e07
