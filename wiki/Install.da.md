@@ -2,7 +2,7 @@
 
 # Installation
 
-Projektet kræver **Python 3.13 eller nyere**. Det har ingen kørselsafhængigheder; `pytest`, `ruff` og `mypy` er udviklingsværktøjer.
+Projektet kræver **Python 3.13 eller nyere**. Det har ingen kørselsafhængigheder; `pytest`, `ruff`, `mypy`, `yamllint` og `actionlint` er udviklingsværktøjer.
 
 ## Windows PowerShell
 

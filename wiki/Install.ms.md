@@ -2,7 +2,7 @@
 
 # Pemasangan
 
-Projek ini memerlukan **Python 3.13 atau lebih baharu**. Ia tiada kebergantungan masa jalan; `pytest`, `ruff` dan `mypy` ialah alat pembangunan.
+Projek ini memerlukan **Python 3.13 atau lebih baharu**. Ia tiada kebergantungan masa jalan; `pytest`, `ruff`, `mypy`, `yamllint` dan `actionlint` ialah alat pembangunan.
 
 ## Windows PowerShell
 

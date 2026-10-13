@@ -2,7 +2,7 @@
 
 # Install
 
-The project needs **Python 3.13 or later**. It has no runtime dependencies; `pytest`, `ruff` and `mypy` are development tools.
+The project needs **Python 3.13 or later**. It has no runtime dependencies; `pytest`, `ruff`, `mypy`, `yamllint` and `actionlint` are development tools.
 
 ## Windows PowerShell
 

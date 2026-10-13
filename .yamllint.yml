@@ -6,3 +6,6 @@ rules:
     max: 100
   truthy:
     check-keys: false
+  # Git on Windows checks files out with CRLF; the repository blob has LF.
+  new-lines:
+    type: platform
