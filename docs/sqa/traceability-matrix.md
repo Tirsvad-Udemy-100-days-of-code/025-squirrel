@@ -23,13 +23,13 @@ updated whenever an artifact instance is created or reviewed.
 
 | Artifact Instance | Type | Language | Domain | Upstream (Backward Link) | Downstream (Forward Link) | Last Reviewed (RC-ID) |
 | --- | --- | --- | --- | --- | --- | --- |
-| [BC-001] | Business Case | en | it | - | [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-001], [RC-019] |
+| [BC-001] | Business Case | en | it | - | [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-001], [RC-019], [RC-026] |
 | [SA-001] | Stakeholder Analysis | en | it | [BC-001] | [PP-001] | [RC-002] |
 | [PP-001] | Project Plan | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | - (no checklist; accepted by S01 in chat) |
 | [MIL-001] | Milestone | en | it | [BC-001], [PP-001] | - | [RC-003], [RC-020] |
 | [MIL-002] | Milestone | en | it | [BC-001], [PP-001], [MIL-001] | - | [RC-004], [RC-021] |
 | [MIL-003] | Milestone | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-005], [RC-022] |
-| [MIL-004] | Milestone | en | it | [BC-001], [PP-001], [MIL-003] | - | [RC-006], [RC-023] |
+| [MIL-004] | Milestone | en | it | [BC-001], [PP-001], [MIL-003] | - | [RC-006], [RC-023], [RC-027] |
 | [DICT-001] | Domain Dictionary | en | it | [BC-001], [SA-001] | - | [RC-007], [RC-018] |
 | [UCD-001] | Use Case Diagram | en | it | [SA-001], [BC-001] | [US-001], [UC-001] | [RC-011] |
 | [US-001] | User Story | en | it | [UCD-001], [BC-001], [MIL-002] | [UC-001] | [RC-012] |
@@ -90,3 +90,5 @@ updated whenever an artifact instance is created or reviewed.
 [RC-023]: ./reviews/rc-023-mil-004-delta.md
 [RC-024]: ./reviews/rc-024-python-census.md
 [RC-025]: ./reviews/rc-025-ci-workflow-delta.md
+[RC-026]: ./reviews/rc-026-business-case-wiki-path.md
+[RC-027]: ./reviews/rc-027-mil-004-wiki-path.md
