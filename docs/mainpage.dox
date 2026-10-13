@@ -1,0 +1,13 @@
+/**
+@mainpage Squirrel Census
+
+Count the squirrels of the 2018 Central Park Squirrel Census by primary fur colour
+(Gray, Cinnamon, Black) and export the counts to `squirrel_count.csv`.
+
+The steps follow the Udemy "100 Days of Code" lecture of day 25: squirrel.census.read_csv,
+squirrel.census.count_by_fur_color, squirrel.census.build_summary and
+squirrel.census.write_csv. The command line entry point is squirrel.cli.main, started
+with `python -m squirrel`. Every literal is defined once in squirrel.constants.
+
+The package uses only the Python standard library.
+*/
