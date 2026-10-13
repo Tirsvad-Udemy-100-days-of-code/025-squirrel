@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [d85cfe5] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [d85cfe5] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Scope names the earlier records RC-001, RC-019 and says the other criteria still hold | pending |
 
 ---
 
@@ -17,7 +18,7 @@
 
 - Instance reviewed: [BC-001]
 - Checklist used: [QC-BC-001] and [QC-LANG-001]
-- Scope: delta re-review of the criterion that covers the changed text and criteria 1, 2, 6, 7, 8 of QC-LANG-001: the path `docs/wiki/` was corrected to `wiki/`
+- Scope: delta re-review of the criterion that covers the changed text and criteria 1, 2, 6, 7, 8 of QC-LANG-001: the path `docs/wiki/` was corrected to `wiki/`; earlier records RC-001, RC-019
 - Language and domain: en / it
 - Language reviewer: none (the stand-in reviewer reads English and the `it` domain)
 - Mode: autonomous, not independent (reviewer: AI as stand-in for S01)
@@ -40,7 +41,7 @@
 
 ## Overall Verdict
 
-Go — only a folder path was corrected; the earlier review of the content still holds.
+Go — only a folder path was corrected; the earlier review of the content still holds. The other criteria of the checklist and of QC-LANG-001 were passed in RC-001, RC-019 and are unaffected by this change.
 
 ## Action Items
 
