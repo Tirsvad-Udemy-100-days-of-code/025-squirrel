@@ -4,15 +4,15 @@
 | Key | Value |
 | --- | --- |
 | ID | MIL-001 |
-| CrossReference | [BC-001], [US-001] |
+| CrossReference | [BC-001], [US-001], [SA-001] |
 | Language | en |
 | Domain | it |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added task 7: static workflow test (RC-010 action item) | [6fb75dd] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added task 8: lint steps in CI (recorded after the work) | [78a0d02] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added task 8: lint steps in CI (recorded after the work) | [78a0d02] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the missing link definition and CrossReference for [SA-001] | [fa5bb84] |
 ---
 
 ## Purpose
@@ -74,5 +74,6 @@ A branch merged to `main` containing `.gitignore`, `pyproject.toml`, `src/squirr
 
 [BC-001]: ../business-case.md
 [US-001]: ../user-stories.md
-[6fb75dd]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/6fb75ddb8671636869b859d8718d3f3f8783659c
 [78a0d02]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/78a0d02bf373b92163f45d93449dd1009b62e568
+[SA-001]: ../stakeholder-analysis.md
+[fa5bb84]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/fa5bb84025ca0fa1957434d34b0b678280a3abe5
