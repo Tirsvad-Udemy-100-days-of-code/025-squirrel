@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added task 8: lint steps in CI (recorded after the work) | [78a0d02] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the missing link definition and CrossReference for [SA-001] | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the missing link definition and CrossReference for [SA-001] | [fa5bb84] |
 ---
 
 ## Purpose
@@ -76,3 +76,4 @@ A branch merged to `main` containing `.gitignore`, `pyproject.toml`, `src/squirr
 [US-001]: ../user-stories.md
 [78a0d02]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/78a0d02bf373b92163f45d93449dd1009b62e568
 [SA-001]: ../stakeholder-analysis.md
+[fa5bb84]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/fa5bb84025ca0fa1957434d34b0b678280a3abe5

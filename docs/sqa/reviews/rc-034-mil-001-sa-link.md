@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [fa5bb84] |
 
 ---
 
@@ -53,3 +53,4 @@ Go — only a missing link definition and a CrossReference entry were added; the
 [MIL-001]: ../../milestones/mil-001-project-scaffold.md
 [QC-MIL-001]: ../../../framework/qc/artifacts/qc-milestones-gateways.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
+[fa5bb84]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/fa5bb84025ca0fa1957434d34b0b678280a3abe5

@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-033 (RC-026 to RC-033 added)<br>Version History row added for each change batch since the first version | [c88434c] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-036 (MIL-001, MIL-003 and MIL-004 link fix) | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-036 (MIL-001, MIL-003 and MIL-004 link fix) | [fa5bb84] |
 
 ---
 
@@ -103,3 +103,4 @@ updated whenever an artifact instance is created or reviewed.
 [RC-034]: ./reviews/rc-034-mil-001-sa-link.md
 [RC-035]: ./reviews/rc-035-mil-003-sa-link.md
 [RC-036]: ./reviews/rc-036-mil-004-sa-link.md
+[fa5bb84]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/fa5bb84025ca0fa1957434d34b0b678280a3abe5
