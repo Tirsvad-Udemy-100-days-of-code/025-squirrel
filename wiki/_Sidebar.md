@@ -1,4 +1,4 @@
-<!-- Generated from docs/wiki; edit the source pages, not the published wiki. -->
+<!-- Generated from wiki; edit the source pages, not the published wiki. -->
 
 **Squirrel Census**
 
