@@ -1,0 +1,47 @@
+# Project configuration for the squirrel census assignment (day 25).
+# Read by pip, setuptools and pytest. The decision to use the standard library
+# only is recorded in docs/adr/adr-0001-standard-library-instead-of-pandas.md.
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "squirrel"
+version = "0.1.0"
+description = "Count the squirrels of the 2018 Central Park Squirrel Census by primary fur colour."
+readme = "README.md"
+requires-python = ">=3.13"
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE"]
+dependencies = []
+classifiers = [
+  "Programming Language :: Python :: 3.13",
+  "Intended Audience :: Education",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "ruff==0.17.0", "mypy==2.4.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+src = ["src", "tests"]
+extend-exclude = ["docs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "D"]
+ignore = ["D203", "D213"]
+
+[tool.mypy]
+strict = true
+files = ["src", "tests"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]

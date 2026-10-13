@@ -31,10 +31,10 @@ This plan schedules the four phases that deliver the squirrel census assignment:
 
 | Gateway | Document | Window | Decision date | Owner | Stories | Main deliverable | Milestone |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| G1 Project scaffold and tooling | [MIL-001] | 2026-10-13 to 2026-10-14 | 2026-10-14 | S01 | none | `.gitignore`, `pyproject.toml`, constants, Doxyfile, continuous integration (CI), repository metadata | |
-| G2 Squirrel census analysis | [MIL-002] | 2026-10-14 to 2026-10-15 | 2026-10-15 | S01 | US-001 | Package, tests, census file, `squirrel_count.csv` | |
-| G3 README, source documentation and screenshots | [MIL-003] | 2026-10-15 to 2026-10-16 | 2026-10-16 | S01 | none | README, Doxygen comments, screenshots | |
-| G4 Wiki and publication | [MIL-004] | 2026-10-16 | 2026-10-16 | S01 | none | Wiki in en, da and ms | |
+| G1 Project scaffold and tooling | [MIL-001] | 2026-10-13 to 2026-10-14 | 2026-10-14 | S01 | none | `.gitignore`, `pyproject.toml`, constants, Doxyfile, continuous integration (CI), repository metadata | [Milestone 124][MS-124] |
+| G2 Squirrel census analysis | [MIL-002] | 2026-10-14 to 2026-10-15 | 2026-10-15 | S01 | US-001 | Package, tests, census file, `squirrel_count.csv` | [Milestone 125][MS-125] |
+| G3 README, source documentation and screenshots | [MIL-003] | 2026-10-15 to 2026-10-16 | 2026-10-16 | S01 | none | README, Doxygen comments, screenshots | [Milestone 126][MS-126] |
+| G4 Wiki and publication | [MIL-004] | 2026-10-16 | 2026-10-16 | S01 | none | Wiki in en, da and ms | [Milestone 127][MS-127] |
 
 ```plantuml
 @startgantt
@@ -93,3 +93,7 @@ A No-Go at a gateway stops the later gateways; their dates move by the days the 
 [MIL-003]: ./milestones/mil-003-documentation.md
 [MIL-004]: ./milestones/mil-004-wiki-publication.md
 [f1b3c03]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/f1b3c034dc3880b7884646b4a4ed28e5f98fbcd3
+[MS-124]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/milestone/124
+[MS-125]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/milestone/125
+[MS-126]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/milestone/126
+[MS-127]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/milestone/127
