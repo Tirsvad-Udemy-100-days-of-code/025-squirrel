@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [259d017] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [259d017] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Link definitions added for the IDs cited in the text | pending |
 
 ---
 
@@ -59,3 +60,4 @@ Go — all Mandatory criteria pass; criterion 10 is not applicable because no cl
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
 [ADR-0001]: ../../adr/adr-0001-standard-library-instead-of-pandas.md
 [259d017]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/259d017ad257059330eb9a8bdbf940c9d082664e
+[SSD-001]: ../../uc-001/ssd.md

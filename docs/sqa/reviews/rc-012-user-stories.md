@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [259d017] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [259d017] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Link definitions added for the IDs cited in the text | pending |
 
 ---
 
@@ -66,3 +67,6 @@ Go — all Mandatory criteria pass.
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [DICT-001]: ../../dictionary.md
 [259d017]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/259d017ad257059330eb9a8bdbf940c9d082664e
+[MIL-002]: ../../milestones/mil-002-census-analysis.md
+[UC-001]: ../../uc-001/uc.md
+[UCD-001]: ../../use-case-diagram.md
