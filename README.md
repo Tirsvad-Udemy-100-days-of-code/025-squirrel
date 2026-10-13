@@ -36,9 +36,25 @@ If PowerShell refuses to run the activation script, allow it for the current ses
 
 ### Linux debian
 
+On Debian 13 (trixie) or later, `python3` is 3.13:
+
 ```bash
 sudo apt install python3 python3-venv
 python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -e ".[dev]"
+```
+
+On Debian 12 (bookworm), `python3` is 3.11 and `pip` refuses to install the project
+(`requires a different Python`). Get Python 3.13 with [uv][uv] and use it for the `.venv`:
+
+```bash
+sudo apt install python3 python3-venv
+python3 -m venv .uvenv
+.uvenv/bin/python -m pip install uv
+.uvenv/bin/uv python install 3.13
+.uvenv/bin/uv venv --seed --python 3.13 .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
@@ -132,6 +148,7 @@ GNU Affero General Public License v3.0 or later. See [LICENSE][license].
 [img-run]: docs/images/run.png
 [img-tests]: docs/images/tests.png
 [doxygen]: https://www.doxygen.nl/
+[uv]: https://docs.astral.sh/uv/
 [adr-0001]: docs/adr/adr-0001-standard-library-instead-of-pandas.md
 [ci]: .gitea/workflows/ci.yml
 [doxyfile]: Doxyfile
