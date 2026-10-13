@@ -11,8 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [US-001] | [259d017] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added task 7: static workflow test (RC-010 action item) | [6fb75dd] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added task 7: static workflow test (RC-010 action item) | [6fb75dd] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added task 8: lint steps in CI (recorded after the work) | pending |
 ---
 
 ## Purpose
@@ -68,10 +68,10 @@ A branch merged to `main` containing `.gitignore`, `pyproject.toml`, `src/squirr
 | 5 | Add CI workflow | Add a Gitea Actions workflow that sets up Python 3.13, creates a venv, upgrades pip, installs the dev extra and runs pytest on push and pull request. It backs the "Continuous integration" section of the README. | No |  |
 | 6 | Set repository description and topics | Use the Gitea API with the token from `.env` (read by the shell only, never by the project) to set a description and topics such as `python`, `csv`, `squirrel-census`, `udemy`, `100-days-of-code`, `pytest`. Satisfies stakeholder S03. | No |  |
 | 7 | Add static workflow test | Add `tests/test_workflow.py`, run by pytest on every pull request, that parses `.gitea/workflows/ci.yml` with a safe YAML loader and checks the required keys, explicit permissions, runner and timeout, named steps, exact-tag action pins and the five-line limit on `run:` blocks. Closes criterion 24 (optional) of the workflow review RC-010. | No | RC-010 |
+| 8 | Run yamllint and actionlint in CI | Add two steps to `.gitea/workflows/ci.yml` that run `yamllint` on `.gitea` and `.yamllint.yml` and `actionlint` on the workflow files, after the dev extra is installed, so a malformed workflow fails the pull request. Done in pull request 39 at the request of S01 and recorded here afterwards; reviewed in RC-031 and RC-032. | No | RC-031, RC-032 |
 
 ---
 
 [BC-001]: ../business-case.md
 [US-001]: ../user-stories.md
-[259d017]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/259d017ad257059330eb9a8bdbf940c9d082664e
 [6fb75dd]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/6fb75ddb8671636869b859d8718d3f3f8783659c
