@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [d2f36bf] |
 
 ---
 
@@ -42,3 +42,4 @@ Go — criterion 22, the only open Mandatory criterion of RC-010, now passes; th
 
 [WF-MIL-001]: ../../../.gitea/workflows/ci.yml
 [QC-WF-001]: ../../../framework/qc/code/qc-workflow.md
+[d2f36bf]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/d2f36bfde38dd8fe06e85ba26daff98c701451a3
