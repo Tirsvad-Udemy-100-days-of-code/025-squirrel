@@ -11,8 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [UCD-001] | [259d017] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [UCD-001] | [259d017] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Corrected the wiki folder `docs/wiki/` to `wiki/` | pending |
 ---
 
 ## Executive Summary
@@ -91,7 +91,7 @@ The project supports the participant's goal of finishing the 100 Days of Code bo
 | The lecture uses Pandas but the repository must have no runtime dependencies | The solution differs from the lecture code | Use the standard library `csv` module; record the decision in an architecture decision record (ADR) and keep the lecture's step names as function names |
 | The census file is large and not part of the repository | Others cannot run the program | Keep the census file under `data/` and let the program accept a path argument |
 | Tokens in `.env` leak into the repository | Credential exposure | `.env` is git-ignored, never read by the project and never printed |
-| Wiki push is not available on the host | Wiki pages are not published | Keep the pages in the repository under `docs/wiki/` and report the failure |
+| Wiki push is not available on the host | Wiki pages are not published | Keep the pages in the repository under `wiki/` and report the failure |
 | Fur colour spelling differs in the data | Wrong counts | Count exact values `Gray`, `Cinnamon`, `Black` and test with fixture rows |
 
 ## Assumptions
@@ -133,6 +133,5 @@ Proceed — the scope is small, the risks are mitigated and the result is direct
 
 ---
 
-[f1b3c03]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/f1b3c034dc3880b7884646b4a4ed28e5f98fbcd3
 [UCD-001]: ./use-case-diagram.md
 [259d017]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/259d017ad257059330eb9a8bdbf940c9d082664e

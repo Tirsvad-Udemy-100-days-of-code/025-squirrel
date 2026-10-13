@@ -11,8 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [f1b3c03] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [US-001] | [259d017] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [US-001] | [259d017] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Corrected the wiki folder `docs/wiki/` to `wiki/` | pending |
 ---
 
 ## Purpose
@@ -75,7 +75,7 @@ A No-Go at a gateway stops the later gateways; their dates move by the days the 
 | Risk | Impact | Mitigation |
 | --- | --- | --- |
 | CI runner is not available on the git host | The CI workflow cannot be shown green | Run the same commands locally and report the missing runner |
-| Wiki repository cannot be pushed | G4 deliverable is not published | Keep the pages under `docs/wiki/` and report it |
+| Wiki repository cannot be pushed | G4 deliverable is not published | Keep the pages under `wiki/` and report it |
 | Doxygen is not installed locally | The documentation build cannot be verified | Report as not verified; document the command |
 
 ## Open Issues
@@ -92,7 +92,6 @@ A No-Go at a gateway stops the later gateways; their dates move by the days the 
 [MIL-002]: ./milestones/mil-002-census-analysis.md
 [MIL-003]: ./milestones/mil-003-documentation.md
 [MIL-004]: ./milestones/mil-004-wiki-publication.md
-[f1b3c03]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/f1b3c034dc3880b7884646b4a4ed28e5f98fbcd3
 [MS-124]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/milestone/124
 [MS-125]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/milestone/125
 [MS-126]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/milestone/126
