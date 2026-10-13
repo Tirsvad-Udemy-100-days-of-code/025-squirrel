@@ -4,15 +4,15 @@
 | Key | Value |
 | --- | --- |
 | ID | MIL-002 |
-| CrossReference | [BC-001] |
+| CrossReference | [BC-001], [US-001] |
 | Language | en |
 | Domain | it |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
-
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [US-001] | pending |
 ---
 
 ## Purpose
@@ -74,3 +74,4 @@ A branch merged to `main` containing the user story, use case, system sequence d
 
 [BC-001]: ../business-case.md
 [f1b3c03]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/f1b3c034dc3880b7884646b4a4ed28e5f98fbcd3
+[US-001]: ../user-stories.md
