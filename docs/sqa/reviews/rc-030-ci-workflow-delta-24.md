@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [7202aac] |
 
 ---
 
@@ -42,3 +42,4 @@ Go — criterion 24 (Optional) now passes; the other rows of RC-010 and RC-025 s
 
 [WF-MIL-001]: ../../../.gitea/workflows/ci.yml
 [QC-WF-001]: ../../../framework/qc/code/qc-workflow.md
+[7202aac]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/7202aac5956ef92ab6a4efc6cb1917de075d771a

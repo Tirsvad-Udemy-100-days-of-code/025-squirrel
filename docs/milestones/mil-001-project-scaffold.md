@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [US-001] | [259d017] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added task 7: static workflow test (RC-010 action item) | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added task 7: static workflow test (RC-010 action item) | [6fb75dd] |
 ---
 
 ## Purpose
@@ -74,3 +74,4 @@ A branch merged to `main` containing `.gitignore`, `pyproject.toml`, `src/squirr
 [BC-001]: ../business-case.md
 [US-001]: ../user-stories.md
 [259d017]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/259d017ad257059330eb9a8bdbf940c9d082664e
+[6fb75dd]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/6fb75ddb8671636869b859d8718d3f3f8783659c

@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [7202aac] |
 
 ---
 
@@ -57,3 +57,4 @@ Go — all Mandatory criteria pass; criterion 10 is not applicable.
 
 [PY-MIL-001-7]: ../../../tests/test_workflow.py
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
+[7202aac]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/7202aac5956ef92ab6a4efc6cb1917de075d771a
