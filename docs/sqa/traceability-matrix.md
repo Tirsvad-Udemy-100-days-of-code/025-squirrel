@@ -27,7 +27,7 @@ updated whenever an artifact instance is created or reviewed.
 | [BC-001] | Business Case | en | it | - | [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-001], [RC-019], [RC-026] |
 | [SA-001] | Stakeholder Analysis | en | it | [BC-001] | [PP-001] | [RC-002] |
 | [PP-001] | Project Plan | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | - (no checklist; accepted by S01 in chat) |
-| [MIL-001] | Milestone | en | it | [BC-001], [PP-001] | - | [RC-003], [RC-020], [RC-028] |
+| [MIL-001] | Milestone | en | it | [BC-001], [PP-001] | - | [RC-003], [RC-020], [RC-028], [RC-033] |
 | [MIL-002] | Milestone | en | it | [BC-001], [PP-001], [MIL-001] | - | [RC-004], [RC-021] |
 | [MIL-003] | Milestone | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-005], [RC-022] |
 | [MIL-004] | Milestone | en | it | [BC-001], [PP-001], [MIL-003] | - | [RC-006], [RC-023], [RC-027] |
@@ -100,3 +100,4 @@ updated whenever an artifact instance is created or reviewed.
 [dfaa840]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/dfaa8400c3bd24b086a2c3eab1bef1e4e7ea6b45
 [RC-031]: ./reviews/rc-031-ci-yaml-lint-steps.md
 [RC-032]: ./reviews/rc-032-ci-workflow-lint-steps.md
+[RC-033]: ./reviews/rc-033-mil-001-task-8.md
