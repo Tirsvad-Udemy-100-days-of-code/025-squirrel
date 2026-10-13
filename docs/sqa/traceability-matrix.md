@@ -31,11 +31,13 @@ updated whenever an artifact instance is created or reviewed.
 | [MIL-003] | Milestone | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-005] |
 | [MIL-004] | Milestone | en | it | [BC-001], [PP-001], [MIL-003] | - | [RC-006] |
 | [DICT-001] | Domain Dictionary | en | it | [BC-001], [SA-001] | - | [RC-007] |
+| `src/squirrel/constants.py`, `tests/test_constants.py` | Python Source Code | - | - | [MIL-001] | - | [RC-008] |
+| `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010] |
 
 ## Coverage Notes
 
 - `-` in Upstream means foundational; in Downstream, nothing is built on it yet; in Last Reviewed, no `RC-*` exists yet.
-- No instance yet of US, UC, SSD, DM, ADR or source code; they are added in MIL-002.
+- No instance yet of US, UC, SSD, DM or ADR; they are added in MIL-002.
 
 ---
 
@@ -54,4 +56,7 @@ updated whenever an artifact instance is created or reviewed.
 [RC-005]: ./reviews/rc-005-mil-003-documentation.md
 [RC-006]: ./reviews/rc-006-mil-004-wiki-publication.md
 [RC-007]: ./reviews/rc-007-dictionary.md
+[RC-008]: ./reviews/rc-008-python-constants.md
+[RC-009]: ./reviews/rc-009-ci-workflow-yaml.md
+[RC-010]: ./reviews/rc-010-ci-workflow.md
 [f1b3c03]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/f1b3c034dc3880b7884646b4a4ed28e5f98fbcd3
