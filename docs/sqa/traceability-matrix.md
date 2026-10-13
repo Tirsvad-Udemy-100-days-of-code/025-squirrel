@@ -26,7 +26,7 @@ updated whenever an artifact instance is created or reviewed.
 | [BC-001] | Business Case | en | it | - | [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-001], [RC-019], [RC-026] |
 | [SA-001] | Stakeholder Analysis | en | it | [BC-001] | [PP-001] | [RC-002] |
 | [PP-001] | Project Plan | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | - (no checklist; accepted by S01 in chat) |
-| [MIL-001] | Milestone | en | it | [BC-001], [PP-001] | - | [RC-003], [RC-020] |
+| [MIL-001] | Milestone | en | it | [BC-001], [PP-001] | - | [RC-003], [RC-020], [RC-028] |
 | [MIL-002] | Milestone | en | it | [BC-001], [PP-001], [MIL-001] | - | [RC-004], [RC-021] |
 | [MIL-003] | Milestone | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-005], [RC-022] |
 | [MIL-004] | Milestone | en | it | [BC-001], [PP-001], [MIL-003] | - | [RC-006], [RC-023], [RC-027] |
@@ -40,7 +40,8 @@ updated whenever an artifact instance is created or reviewed.
 | [ADR-0001] | Architecture Decision Record | - | - | [BC-001], [SA-001], [MIL-002] | `src/squirrel/census.py` | [RC-017] |
 | `src/squirrel/census.py`, `cli.py`, `__main__.py`, `tests/` | Python Source Code | - | - | [UC-001], [SSD-001], [ADR-0001] | - | [RC-024] |
 | `src/squirrel/constants.py`, `tests/test_constants.py` | Python Source Code | - | - | [MIL-001] | - | [RC-008] |
-| `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010], [RC-025] |
+| `tests/test_workflow.py` | Python Source Code | - | - | [MIL-001], [RC-010] | - | [RC-029] |
+| `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010], [RC-025], [RC-030] |
 
 ## Coverage Notes
 
@@ -92,3 +93,6 @@ updated whenever an artifact instance is created or reviewed.
 [RC-025]: ./reviews/rc-025-ci-workflow-delta.md
 [RC-026]: ./reviews/rc-026-business-case-wiki-path.md
 [RC-027]: ./reviews/rc-027-mil-004-wiki-path.md
+[RC-028]: ./reviews/rc-028-mil-001-task-7.md
+[RC-029]: ./reviews/rc-029-python-workflow-test.md
+[RC-030]: ./reviews/rc-030-ci-workflow-delta-24.md
