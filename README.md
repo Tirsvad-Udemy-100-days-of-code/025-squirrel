@@ -20,7 +20,7 @@ There are no runtime dependencies: the program uses only the Python standard lib
 ## Set up
 
 Create a local virtual environment named `.venv` in the project folder, upgrade `pip`
-and install the project with its development tools (pytest, ruff, mypy).
+and install the project with its development tools (pytest, ruff, mypy, yamllint, actionlint).
 
 ### Windows powershell
 
