@@ -31,6 +31,10 @@ def test_file_encoding_and_column_name_values() -> None:
     assert constants.FUR_COLOR_COLUMN == "Primary Fur Color"
 
 
+def test_exit_input_missing_is_2() -> None:
+    assert constants.EXIT_INPUT_MISSING == 2
+
+
 def test_module_imports_only_standard_library() -> None:
     source = pathlib.Path(constants.__file__).read_text(encoding="utf-8")
     imported: set[str] = set()
