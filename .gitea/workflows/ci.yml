@@ -1,7 +1,8 @@
 # Continuous integration for the squirrel census project: lints the YAML and
 # workflow files and runs the pytest tests on Python 3.13 for every push and
 # pull request. Read by Gitea Actions (a runner must be registered for the
-# repository). It changes nothing outside the repository and uses no secret. Decision: MIL-001 task "Add CI workflow".
+# repository). It changes nothing outside the repository and uses no secret.
+# Decision: MIL-001 task "Add CI workflow".
 # Host: Gitea Actions; uses only github.* contexts, so it also runs on GitHub.
 
 name: Tests
