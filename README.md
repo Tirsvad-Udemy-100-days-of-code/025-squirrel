@@ -90,7 +90,8 @@ it is present.
 
 The workflow [`.gitea/workflows/ci.yml`][ci] runs for every push to `main` and for every
 pull request. It sets up Python 3.13, creates a `.venv`, upgrades `pip`, installs the
-project with `.[dev]` and runs `python -m pytest`. It uses `github.*` contexts only, so
+project with `.[dev]`, lints the YAML and workflow files with `yamllint` and
+`actionlint`, and runs `python -m pytest`. It uses `github.*` contexts only, so
 it also runs on GitHub Actions.
 
 ## Build the source documentation
