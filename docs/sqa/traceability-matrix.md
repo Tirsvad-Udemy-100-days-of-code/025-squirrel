@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Rows added for UCD-001, US-001, UC-001, SSD-001, DM-001, DM-002, ADR-0001 and the source files; Last Reviewed updated up to RC-030<br>Version History rows added for edits made since the first version (the git history holds each edit) | [dfaa840] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-033 (RC-026 to RC-033 added)<br>Version History row added for each change batch since the first version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-033 (RC-026 to RC-033 added)<br>Version History row added for each change batch since the first version | [c88434c] |
 
 ---
 
@@ -100,3 +100,4 @@ updated whenever an artifact instance is created or reviewed.
 [RC-031]: ./reviews/rc-031-ci-yaml-lint-steps.md
 [RC-032]: ./reviews/rc-032-ci-workflow-lint-steps.md
 [RC-033]: ./reviews/rc-033-mil-001-task-8.md
+[c88434c]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/c88434c58398f6b8d0aa828bf89b2b21606b39a9
