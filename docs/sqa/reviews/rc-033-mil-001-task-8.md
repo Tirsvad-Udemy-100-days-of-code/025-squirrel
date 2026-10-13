@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [78a0d02] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [78a0d02] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Scope names the earlier records RC-003, RC-020 and RC-028 and says the other criteria still hold | [c88434c] |
 
 ---
 
@@ -17,7 +18,7 @@
 
 - Instance reviewed: [MIL-001]
 - Checklist used: [QC-MIL-001] and [QC-LANG-001]
-- Scope: delta re-review of criteria 1 and 2 and criteria 1, 2, 6, 7, 8 of QC-LANG-001: task 8 added to the Tasks section
+- Scope: delta re-review of criteria 1 and 2 and criteria 1, 2, 6, 7, 8 of QC-LANG-001: task 8 added to the Tasks section; earlier records RC-003 (full review), RC-020 and RC-028 (deltas)
 - Language and domain: en / it
 - Language reviewer: none (the stand-in reviewer reads English and the `it` domain)
 - Mode: autonomous, not independent (reviewer: AI as stand-in for S01)
@@ -41,7 +42,7 @@
 
 ## Overall Verdict
 
-Go — one task row was added at the request of S01 in chat, after the work was done and reviewed in RC-031 and RC-032; the gate criteria and deliverable are unchanged.
+Go — one task row was added at the request of S01 in chat, after the work was done and reviewed in RC-031 and RC-032; the gate criteria and deliverable are unchanged. The remaining criteria 3 to 6 of QC-MIL-001 and 3, 4, 5, 9, 10 of QC-LANG-001 were passed in RC-003 and are unaffected by a new task row.
 
 ## Action Items
 
@@ -55,3 +56,4 @@ Go — one task row was added at the request of S01 in chat, after the work was 
 [QC-MIL-001]: ../../../framework/qc/artifacts/qc-milestones-gateways.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [78a0d02]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/78a0d02bf373b92163f45d93449dd1009b62e568
+[c88434c]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/c88434c58398f6b8d0aa828bf89b2b21606b39a9
