@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [259d017] |
 
 ---
 
@@ -66,3 +66,4 @@ Go — all Mandatory criteria pass.
 [QC-UCD-001]: ../../../framework/qc/artifacts/qc-use-case-diagram.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [DICT-001]: ../../dictionary.md
+[259d017]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/259d017ad257059330eb9a8bdbf940c9d082664e
