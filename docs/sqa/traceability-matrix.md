@@ -40,7 +40,7 @@ updated whenever an artifact instance is created or reviewed.
 | [ADR-0001] | Architecture Decision Record | - | - | [BC-001], [SA-001], [MIL-002] | `src/squirrel/census.py` | [RC-017] |
 | `src/squirrel/census.py`, `cli.py`, `__main__.py`, `tests/` | Python Source Code | - | - | [UC-001], [SSD-001], [ADR-0001] | - | [RC-024] |
 | `src/squirrel/constants.py`, `tests/test_constants.py` | Python Source Code | - | - | [MIL-001] | - | [RC-008] |
-| `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010] |
+| `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010], [RC-025] |
 
 ## Coverage Notes
 
@@ -89,3 +89,4 @@ updated whenever an artifact instance is created or reviewed.
 [RC-022]: ./reviews/rc-022-mil-003-delta.md
 [RC-023]: ./reviews/rc-023-mil-004-delta.md
 [RC-024]: ./reviews/rc-024-python-census.md
+[RC-025]: ./reviews/rc-025-ci-workflow-delta.md
