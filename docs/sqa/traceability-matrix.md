@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Rows added for UCD-001, US-001, UC-001, SSD-001, DM-001, DM-002, ADR-0001 and the source files; Last Reviewed updated up to RC-030<br>Version History rows added for edits made since the first version (the git history holds each edit) | [dfaa840] |
 | 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-033 (RC-026 to RC-033 added)<br>Version History row added for each change batch since the first version | [c88434c] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-036 (MIL-001, MIL-003 and MIL-004 link fix) | pending |
 
 ---
 
@@ -27,10 +27,10 @@ updated whenever an artifact instance is created or reviewed.
 | [BC-001] | Business Case | en | it | - | [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-001], [RC-019], [RC-026] |
 | [SA-001] | Stakeholder Analysis | en | it | [BC-001] | [PP-001] | [RC-002] |
 | [PP-001] | Project Plan | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | - (no checklist; accepted by S01 in chat) |
-| [MIL-001] | Milestone | en | it | [BC-001], [PP-001] | - | [RC-003], [RC-020], [RC-028], [RC-033] |
+| [MIL-001] | Milestone | en | it | [BC-001], [PP-001] | - | [RC-003], [RC-020], [RC-028], [RC-033], [RC-034] |
 | [MIL-002] | Milestone | en | it | [BC-001], [PP-001], [MIL-001] | - | [RC-004], [RC-021] |
-| [MIL-003] | Milestone | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-005], [RC-022] |
-| [MIL-004] | Milestone | en | it | [BC-001], [PP-001], [MIL-003] | - | [RC-006], [RC-023], [RC-027] |
+| [MIL-003] | Milestone | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-005], [RC-022], [RC-035] |
+| [MIL-004] | Milestone | en | it | [BC-001], [PP-001], [MIL-003] | - | [RC-006], [RC-023], [RC-027], [RC-036] |
 | [DICT-001] | Domain Dictionary | en | it | [BC-001], [SA-001] | - | [RC-007], [RC-018] |
 | [UCD-001] | Use Case Diagram | en | it | [SA-001], [BC-001] | [US-001], [UC-001] | [RC-011] |
 | [US-001] | User Story | en | it | [UCD-001], [BC-001], [MIL-002] | [UC-001] | [RC-012] |
@@ -96,8 +96,10 @@ updated whenever an artifact instance is created or reviewed.
 [RC-028]: ./reviews/rc-028-mil-001-task-7.md
 [RC-029]: ./reviews/rc-029-python-workflow-test.md
 [RC-030]: ./reviews/rc-030-ci-workflow-delta-24.md
-[dfaa840]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/dfaa8400c3bd24b086a2c3eab1bef1e4e7ea6b45
 [RC-031]: ./reviews/rc-031-ci-yaml-lint-steps.md
 [RC-032]: ./reviews/rc-032-ci-workflow-lint-steps.md
 [RC-033]: ./reviews/rc-033-mil-001-task-8.md
 [c88434c]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/c88434c58398f6b8d0aa828bf89b2b21606b39a9
+[RC-034]: ./reviews/rc-034-mil-001-sa-link.md
+[RC-035]: ./reviews/rc-035-mil-003-sa-link.md
+[RC-036]: ./reviews/rc-036-mil-004-sa-link.md
