@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Action item closed: criteria 3 and 4 re-reviewed in RC-018 (Go) | [40c3387] |
 
 ---
 
@@ -65,3 +66,4 @@ Go-with-conditions — criteria 3 and 4 cannot be checked until DM-001 and the d
 [QC-DICT-001]: ../../../framework/qc/artifacts/qc-dictionary.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [f1b3c03]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/f1b3c034dc3880b7884646b4a4ed28e5f98fbcd3
+[40c3387]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/40c3387ea7a4b601e8d20a5a7b6eba20c3d5323d
