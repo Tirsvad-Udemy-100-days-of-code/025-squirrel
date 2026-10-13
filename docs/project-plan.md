@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [f1b3c03] |
 
 ---
 
@@ -92,3 +92,4 @@ A No-Go at a gateway stops the later gateways; their dates move by the days the 
 [MIL-002]: ./milestones/mil-002-census-analysis.md
 [MIL-003]: ./milestones/mil-003-documentation.md
 [MIL-004]: ./milestones/mil-004-wiki-publication.md
+[f1b3c03]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/f1b3c034dc3880b7884646b4a4ed28e5f98fbcd3
