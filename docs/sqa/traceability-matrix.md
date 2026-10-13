@@ -42,7 +42,7 @@ updated whenever an artifact instance is created or reviewed.
 | `src/squirrel/census.py`, `cli.py`, `__main__.py`, `tests/` | Python Source Code | - | - | [UC-001], [SSD-001], [ADR-0001] | - | [RC-024] |
 | `src/squirrel/constants.py`, `tests/test_constants.py` | Python Source Code | - | - | [MIL-001] | - | [RC-008] |
 | `tests/test_workflow.py` | Python Source Code | - | - | [MIL-001], [RC-010] | - | [RC-029] |
-| `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010], [RC-025], [RC-030] |
+| `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010], [RC-025], [RC-030], [RC-031], [RC-032] |
 
 ## Coverage Notes
 
@@ -98,3 +98,5 @@ updated whenever an artifact instance is created or reviewed.
 [RC-029]: ./reviews/rc-029-python-workflow-test.md
 [RC-030]: ./reviews/rc-030-ci-workflow-delta-24.md
 [dfaa840]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/dfaa8400c3bd24b086a2c3eab1bef1e4e7ea6b45
+[RC-031]: ./reviews/rc-031-ci-yaml-lint-steps.md
+[RC-032]: ./reviews/rc-032-ci-workflow-lint-steps.md
