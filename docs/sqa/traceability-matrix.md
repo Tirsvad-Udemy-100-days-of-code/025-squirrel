@@ -40,7 +40,8 @@ updated whenever an artifact instance is created or reviewed.
 | [ADR-0001] | Architecture Decision Record | - | - | [BC-001], [SA-001], [MIL-002] | `src/squirrel/census.py` | [RC-017] |
 | `src/squirrel/census.py`, `cli.py`, `__main__.py`, `tests/` | Python Source Code | - | - | [UC-001], [SSD-001], [ADR-0001] | - | [RC-024] |
 | `src/squirrel/constants.py`, `tests/test_constants.py` | Python Source Code | - | - | [MIL-001] | - | [RC-008] |
-| `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010], [RC-025] |
+| `tests/test_workflow.py` | Python Source Code | - | - | [MIL-001], [RC-010] | - | [RC-029] |
+| `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010], [RC-025], [RC-030] |
 
 ## Coverage Notes
 
@@ -93,3 +94,5 @@ updated whenever an artifact instance is created or reviewed.
 [RC-026]: ./reviews/rc-026-business-case-wiki-path.md
 [RC-027]: ./reviews/rc-027-mil-004-wiki-path.md
 [RC-028]: ./reviews/rc-028-mil-001-task-7.md
+[RC-029]: ./reviews/rc-029-python-workflow-test.md
+[RC-030]: ./reviews/rc-030-ci-workflow-delta-24.md
