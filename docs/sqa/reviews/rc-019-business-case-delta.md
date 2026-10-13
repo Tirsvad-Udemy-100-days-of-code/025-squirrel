@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Link definitions added for the IDs cited in the text | [5b948e5] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Scope names the earlier records RC-001 and says the other criteria still hold | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Scope names the earlier records RC-001 and says the other criteria still hold | [be2e171] |
 
 ---
 
@@ -56,3 +56,4 @@ Go — only Metadata (CrossReference) and the Version History changed; the earli
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [UCD-001]: ../../use-case-diagram.md
 [5b948e5]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/5b948e5a66bbcea5ef062f4557f47aae113a4e07
+[be2e171]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/be2e171f38de55340bb8236fd6b61f1b651ebd64

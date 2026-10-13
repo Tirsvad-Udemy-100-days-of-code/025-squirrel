@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [6fb75dd] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Scope names the earlier records RC-003, RC-020 and says the other criteria still hold | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Scope names the earlier records RC-003, RC-020 and says the other criteria still hold | [be2e171] |
 
 ---
 
@@ -56,3 +56,4 @@ Go — one task row was added at the request of S01 in chat; the gate criteria a
 [QC-MIL-001]: ../../../framework/qc/artifacts/qc-milestones-gateways.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [6fb75dd]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/6fb75ddb8671636869b859d8718d3f3f8783659c
+[be2e171]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/be2e171f38de55340bb8236fd6b61f1b651ebd64
