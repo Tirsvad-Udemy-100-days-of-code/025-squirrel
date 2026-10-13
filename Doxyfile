@@ -1,0 +1,20 @@
+# Doxygen configuration for the squirrel census project.
+# Build the source documentation with: doxygen Doxyfile
+# Output goes to docs/doxygen/ (ignored by git). Everything not listed here
+# keeps the Doxygen default.
+
+PROJECT_NAME           = "Squirrel Census"
+PROJECT_BRIEF          = "Count squirrels by primary fur colour"
+PROJECT_NUMBER         = 0.1.0
+OUTPUT_DIRECTORY       = docs/doxygen
+INPUT                  = src README.md
+FILE_PATTERNS          = *.py *.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+OPTIMIZE_OUTPUT_JAVA   = YES
+EXTRACT_ALL            = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_AS_ERROR          = NO
