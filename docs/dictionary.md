@@ -4,7 +4,7 @@
 | Key | Value |
 | --- | --- |
 | ID | DICT-001 |
-| CrossReference | [BC-001], [SA-001] |
+| CrossReference | [BC-001], [SA-001], [DM-002] |
 | Language | en |
 | Domain | it |
 
@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
-
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [DM-002] | [259d017] |
 ---
 
 ## Purpose and Scope
@@ -27,7 +27,8 @@ Maps each Product Owner (PO) term of the squirrel census project to its professi
 | Squirrel sighting | en | sighting row | One recorded observation of one squirrel in the census file. | BC, MIL, US, UC, DM | SSD, source code |
 | Fur colour | en | fur_color | The primary fur colour of a squirrel: Gray, Cinnamon or Black. | BC, SA, MIL, US, UC, DM | SSD, source code |
 | Colour count | en | color_count | The number of squirrel sightings with one fur colour. | BC, MIL, US, UC, DM | SSD, source code |
-| Summary | en | summary table | The table of fur colours and their counts that is exported as `squirrel_count.csv`. | BC, MIL, US, UC, DM | SSD, source code |
+| Summary | en | summary table | The table of fur colours and their counts. | BC, MIL, US, UC, DM | SSD, source code |
+| Summary file | en | output file | The file the summary is written to. | BC, MIL, US, UC, DM | SSD, source code |
 | Participant | en | command line user | The course participant who runs the program on the census file. | BC, SA, US, UC | SSD |
 
 ## Rules
@@ -42,3 +43,5 @@ Maps each Product Owner (PO) term of the squirrel census project to its professi
 [BC-001]: ./business-case.md
 [SA-001]: ./stakeholder-analysis.md
 [f1b3c03]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/f1b3c034dc3880b7884646b4a4ed28e5f98fbcd3
+[DM-002]: ./domain-model.md
+[259d017]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/259d017ad257059330eb9a8bdbf940c9d082664e

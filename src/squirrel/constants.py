@@ -23,5 +23,8 @@ FUR_COLOR_COLUMN: str = "Primary Fur Color"
 ## @brief Fur colours that are counted, in the order they appear in the summary.
 FUR_COLORS: tuple[str, ...] = ("Gray", "Cinnamon", "Black")
 
+## @brief Exit status of the command line when the census file does not exist.
+EXIT_INPUT_MISSING: int = 2
+
 ## @brief Header of the summary file: the colour column, then the count column.
 SUMMARY_COLUMNS: tuple[str, str] = ("Fur Color", "Count")

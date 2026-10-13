@@ -23,21 +23,29 @@ updated whenever an artifact instance is created or reviewed.
 
 | Artifact Instance | Type | Language | Domain | Upstream (Backward Link) | Downstream (Forward Link) | Last Reviewed (RC-ID) |
 | --- | --- | --- | --- | --- | --- | --- |
-| [BC-001] | Business Case | en | it | - | [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-001] |
+| [BC-001] | Business Case | en | it | - | [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-001], [RC-019] |
 | [SA-001] | Stakeholder Analysis | en | it | [BC-001] | [PP-001] | [RC-002] |
 | [PP-001] | Project Plan | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | - (no checklist; accepted by S01 in chat) |
-| [MIL-001] | Milestone | en | it | [BC-001], [PP-001] | - | [RC-003] |
-| [MIL-002] | Milestone | en | it | [BC-001], [PP-001], [MIL-001] | - | [RC-004] |
-| [MIL-003] | Milestone | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-005] |
-| [MIL-004] | Milestone | en | it | [BC-001], [PP-001], [MIL-003] | - | [RC-006] |
-| [DICT-001] | Domain Dictionary | en | it | [BC-001], [SA-001] | - | [RC-007] |
+| [MIL-001] | Milestone | en | it | [BC-001], [PP-001] | - | [RC-003], [RC-020] |
+| [MIL-002] | Milestone | en | it | [BC-001], [PP-001], [MIL-001] | - | [RC-004], [RC-021] |
+| [MIL-003] | Milestone | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-005], [RC-022] |
+| [MIL-004] | Milestone | en | it | [BC-001], [PP-001], [MIL-003] | - | [RC-006], [RC-023] |
+| [DICT-001] | Domain Dictionary | en | it | [BC-001], [SA-001] | - | [RC-007], [RC-018] |
+| [UCD-001] | Use Case Diagram | en | it | [SA-001], [BC-001] | [US-001], [UC-001] | [RC-011] |
+| [US-001] | User Story | en | it | [UCD-001], [BC-001], [MIL-002] | [UC-001] | [RC-012] |
+| [UC-001] | Use Case | en | it | [UCD-001], [US-001], [SA-001] | [SSD-001], [DM-001] | [RC-013] |
+| [SSD-001] | System Sequence Diagram | en | it | [UC-001] | - | [RC-014] |
+| [DM-001] | Domain Model | en | it | [UC-001], [DICT-001] | [DM-002] | [RC-015] |
+| [DM-002] | Domain Model | en | it | [DM-001], [DICT-001] | - | [RC-016] |
+| [ADR-0001] | Architecture Decision Record | - | - | [BC-001], [SA-001], [MIL-002] | `src/squirrel/census.py` | [RC-017] |
+| `src/squirrel/census.py`, `cli.py`, `__main__.py`, `tests/` | Python Source Code | - | - | [UC-001], [SSD-001], [ADR-0001] | - | [RC-024] |
 | `src/squirrel/constants.py`, `tests/test_constants.py` | Python Source Code | - | - | [MIL-001] | - | [RC-008] |
 | `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010] |
 
 ## Coverage Notes
 
 - `-` in Upstream means foundational; in Downstream, nothing is built on it yet; in Last Reviewed, no `RC-*` exists yet.
-- No instance yet of US, UC, SSD, DM or ADR; they are added in MIL-002.
+- No instance of OC, SD, DCD, ERD or KPI; the project creates none (see RC-018).
 
 ---
 
@@ -60,3 +68,24 @@ updated whenever an artifact instance is created or reviewed.
 [RC-009]: ./reviews/rc-009-ci-workflow-yaml.md
 [RC-010]: ./reviews/rc-010-ci-workflow.md
 [f1b3c03]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/f1b3c034dc3880b7884646b4a4ed28e5f98fbcd3
+[UCD-001]: ../use-case-diagram.md
+[US-001]: ../user-stories.md
+[UC-001]: ../uc-001/uc.md
+[SSD-001]: ../uc-001/ssd.md
+[DM-001]: ../uc-001/dm.md
+[DM-002]: ../domain-model.md
+[ADR-0001]: ../adr/adr-0001-standard-library-instead-of-pandas.md
+[RC-011]: ./reviews/rc-011-use-case-diagram.md
+[RC-012]: ./reviews/rc-012-user-stories.md
+[RC-013]: ./reviews/rc-013-use-case.md
+[RC-014]: ./reviews/rc-014-ssd.md
+[RC-015]: ./reviews/rc-015-dm-use-case.md
+[RC-016]: ./reviews/rc-016-dm-project.md
+[RC-017]: ./reviews/rc-017-adr-0001.md
+[RC-018]: ./reviews/rc-018-dictionary-2.md
+[RC-019]: ./reviews/rc-019-business-case-delta.md
+[RC-020]: ./reviews/rc-020-mil-001-delta.md
+[RC-021]: ./reviews/rc-021-mil-002-delta.md
+[RC-022]: ./reviews/rc-022-mil-003-delta.md
+[RC-023]: ./reviews/rc-023-mil-004-delta.md
+[RC-024]: ./reviews/rc-024-python-census.md
