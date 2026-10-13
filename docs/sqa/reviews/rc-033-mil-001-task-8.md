@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [78a0d02] |
 
 ---
 
@@ -54,3 +54,4 @@ Go — one task row was added at the request of S01 in chat, after the work was 
 [MIL-001]: ../../milestones/mil-001-project-scaffold.md
 [QC-MIL-001]: ../../../framework/qc/artifacts/qc-milestones-gateways.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
+[78a0d02]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/78a0d02bf373b92163f45d93449dd1009b62e568
