@@ -5,9 +5,44 @@ squirrels of the 2018 Central Park Squirrel Census by primary fur colour (gray,
 cinnamon, black) and export the counts to `squirrel_count.csv`. Python 3.13 or
 later, no runtime dependencies, with tests and source documentation.
 
+## 📚 Table of Contents
+
+- [Overview](#-overview)
+- [Requirements](#-requirements)
+- [Setup](#-setup)
+- [Run](#-run)
+- [Tests](#-tests)
+- [License](#-license)
+- [Links](#-links)
+- [Appendix: Project documents](#-appendix-project-documents)
+
+## 🧭 Overview
+
 ![Program run][img-run]
 
-## Requirements
+### Project layout
+
+```text
+.editorconfig             editor settings of the framework baseline
+.env.example              placeholders for the tokens of the framework scripts
+framework/                the SQA and QC framework (git submodule)
+.gitea/workflows/ci.yml   continuous integration workflow
+data/                     the 2018 census file
+docs/                     business case, plan, milestones, models, reviews, ADRs, traceability
+docs/images/              screenshots used by this README and the wiki
+src/squirrel/             the package: census.py, cli.py, constants.py
+tests/                    pytest tests
+docs/wiki/                wiki pages in English, Danish (-da) and Bahasa Malaysia (-ms)
+Doxyfile                  Doxygen configuration
+pyproject.toml            project configuration (Python >=3.13, no runtime dependencies)
+squirrel_count.csv        the result of the assignment
+```
+
+The project documents, in reading order: [Business Case][bc], [Stakeholder
+Analysis][sa], [Project Plan][pp], [Use Case][uc], [Domain Model][dm], [ADR-0001][adr-0001].
+The repository also has a wiki in English, Danish and Bahasa Malaysia.
+
+## 📋 Requirements
 
 - Python 3.13 or later (`python --version` on Windows, `python3 --version` on Linux and macOS).
 - `venv`, which ships with Python (on Debian: the `python3-venv` package).
@@ -17,7 +52,7 @@ later, no runtime dependencies, with tests and source documentation.
 There are no runtime dependencies: the program uses only the Python standard library
 ([ADR-0001][adr-0001]). `pytest` is needed only to run the tests.
 
-## Set up
+## 🛠️ Setup
 
 Create a local virtual environment named `.venv` in the project folder, upgrade `pip`
 and install the project with its development tools (pytest, ruff, mypy, yamllint, actionlint).
@@ -71,7 +106,7 @@ python -m pip install -e ".[dev]"
 
 On macOS, Python 3.13 can be installed with `brew install python@3.13`.
 
-## Run
+## ▶️ Run
 
 With the virtual environment active, run from the project folder:
 
@@ -91,7 +126,17 @@ Black: 103
 Use other files by passing them as arguments, `python -m squirrel <census file> <summary file>`.
 If the census file does not exist the program prints a message and exits with status 2.
 
-## Run the tests
+### Build the source documentation
+
+The source is documented with Doxygen comments and configured by [`Doxyfile`][doxyfile].
+
+```bash
+doxygen Doxyfile
+```
+
+Open `docs/doxygen/html/index.html` in a browser. The output folder is ignored by git.
+
+## 🧪 Tests
 
 ```bash
 python -m pytest
@@ -102,7 +147,7 @@ python -m pytest
 The tests use small fixture rows; one test also checks the real 2018 census file when
 it is present.
 
-## Continuous integration
+### Continuous integration
 
 The workflow [`.gitea/workflows/ci.yml`][ci] runs for every push to `main` and for every
 pull request. It sets up Python 3.13, creates a `.venv`, upgrades `pip`, installs the
@@ -110,38 +155,29 @@ project with `.[dev]`, lints the YAML and workflow files with `yamllint` and
 `actionlint`, and runs `python -m pytest`. It uses `github.*` contexts only, so
 it also runs on GitHub Actions.
 
-## Build the source documentation
-
-The source is documented with Doxygen comments and configured by [`Doxyfile`][doxyfile].
-
-```bash
-doxygen Doxyfile
-```
-
-Open `docs/doxygen/html/index.html` in a browser. The output folder is ignored by git.
-
-## Project layout
-
-```text
-.gitea/workflows/ci.yml   continuous integration workflow
-data/                     the 2018 census file
-docs/                     business case, plan, milestones, models, reviews, ADRs
-docs/images/              screenshots used by this README and the wiki
-src/squirrel/             the package: census.py, cli.py, constants.py
-tests/                    pytest tests
-wiki/                     wiki pages in English, Danish (.da) and Bahasa Malaysia (.ms)
-Doxyfile                  Doxygen configuration
-pyproject.toml            project configuration (Python >=3.13, no runtime dependencies)
-squirrel_count.csv        the result of the assignment
-```
-
-The project documents, in reading order: [Business Case][bc], [Stakeholder
-Analysis][sa], [Project Plan][pp], [Use Case][uc], [Domain Model][dm], [ADR-0001][adr-0001].
-The repository also has a wiki in English, Danish and Bahasa Malaysia.
-
-## License
+## 📄 License
 
 GNU Affero General Public License v3.0 or later. See [LICENSE][license].
+
+## 🔗 Links
+
+- [Repository][repository]
+- [Documentation][documentation]
+- [Issue tracker][issues]
+
+## 📎 Appendix: Project documents
+
+The documents a newcomer needs, in reading order.
+
+| Document | What it tells you |
+| --- | --- |
+| [Business Case][BC-001] | Why the project exists, its scope and success criteria |
+| [Stakeholder Analysis][SA-001] | Who is involved; the stakeholder IDs used for owners and reviewers |
+| [Project Plan][PP-001] | The milestones and their schedule |
+| [Milestones][milestones] | One document per milestone: Go/No-Go criteria and tasks |
+| [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
+| [Domain dictionary][DICT-001] | The PO terms and the IT terms |
+| [Traceability matrix][TM-001] | How the artifacts link and when each was last reviewed |
 
 ---
 
@@ -158,3 +194,13 @@ GNU Affero General Public License v3.0 or later. See [LICENSE][license].
 [uc]: docs/uc-001/uc.md
 [dm]: docs/domain-model.md
 [license]: LICENSE
+[repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel
+[documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/wiki
+[issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/issues
+[BC-001]: ./docs/business-case.md
+[SA-001]: ./docs/stakeholder-analysis.md
+[PP-001]: ./docs/project-plan.md
+[DICT-001]: ./docs/dictionary.md
+[milestones]: ./docs/milestones/
+[registry]: ./docs/artifact-registry.md
+[TM-001]: ./docs/sqa/traceability-matrix.md

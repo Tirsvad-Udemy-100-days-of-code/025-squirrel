@@ -1,8 +1,8 @@
-🌐 **English** · [Dansk](Install.da) · [Bahasa Melayu](Install.ms)
+[English](Install) · [Dansk](Install-da) · **Bahasa Melayu**
 
-# Install
+# Pemasangan
 
-The project needs **Python 3.13 or later**. It has no runtime dependencies; `pytest`, `ruff`, `mypy`, `yamllint` and `actionlint` are development tools.
+Projek ini memerlukan **Python 3.13 atau lebih baharu**. Ia tiada kebergantungan masa jalan; `pytest`, `ruff`, `mypy`, `yamllint` dan `actionlint` ialah alat pembangunan.
 
 ## Windows PowerShell
 
@@ -15,7 +15,7 @@ python -m pip install -e ".[dev]"
 
 ## Linux Debian
 
-On Debian 13 (trixie) or later, `python3` is 3.13:
+Pada Debian 13 (trixie) atau lebih baharu, `python3` ialah 3.13:
 
 ```bash
 sudo apt install python3 python3-venv
@@ -25,7 +25,7 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-On Debian 12 (bookworm), `python3` is 3.11 and `pip` refuses to install the project (`requires a different Python`). Get Python 3.13 with [uv](https://docs.astral.sh/uv/) and use it for the `.venv`:
+Pada Debian 12 (bookworm), `python3` ialah 3.11 dan `pip` enggan memasang projek (`requires a different Python`). Dapatkan Python 3.13 dengan [uv](https://docs.astral.sh/uv/) dan gunakannya untuk `.venv`:
 
 ```bash
 sudo apt install python3 python3-venv
@@ -47,4 +47,4 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-Next: [Usage](Usage).
+Seterusnya: [Penggunaan](Usage-ms).

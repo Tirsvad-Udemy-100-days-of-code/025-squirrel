@@ -6,13 +6,14 @@
 | ID | MIL-002 |
 | CrossReference | [BC-001], [US-001] |
 | Language | en |
-| Domain | it |
+| Domain | education |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [US-001] | [259d017] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [US-001] | [259d017] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Set the domain to education (metadata only; content unchanged); reviewed in autonomous mode, not independent | pending |
 ---
 
 ## Purpose

@@ -34,3 +34,6 @@ docs/doxygen/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# AI prompt logs of the retrofit sessions (kept local)
+/docs/ai-prompts/

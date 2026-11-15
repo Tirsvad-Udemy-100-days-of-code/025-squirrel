@@ -1,4 +1,4 @@
-🌐 [English](Usage) · [Dansk](Usage.da) · **Bahasa Melayu**
+[English](Usage) · [Dansk](Usage-da) · **Bahasa Melayu**
 
 # Penggunaan
 

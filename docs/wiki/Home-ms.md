@@ -1,4 +1,4 @@
-🌐 [English](Home) · [Dansk](Home.da) · **Bahasa Melayu**
+[English](Home) · [Dansk](Home-da) · **Bahasa Melayu**
 
 # Banci Tupai
 
@@ -8,8 +8,9 @@ Hari ke-25 dalam *100 Days of Code: The Complete Python Pro Bootcamp* Udemy: kir
 
 | Halaman | Baca apabila anda mahu |
 | --- | --- |
-| [Pemasangan](Install.ms) | Mencipta `.venv` dan memasang projek di Windows PowerShell, Linux Debian atau macOS |
-| [Penggunaan](Usage.ms) | Menjalankan program dan ujian |
-| [Penerangan](Description.ms) | Memahami cara kod dibina dan sebab ia tiada kebergantungan masa jalan |
+| [Pemasangan](Install-ms) | Mencipta `.venv` dan memasang projek di Windows PowerShell, Linux Debian atau macOS |
+| [Penggunaan](Usage-ms) | Menjalankan program dan ujian |
+| [Penerangan](Description-ms) | Memahami cara kod dibina dan sebab ia tiada kebergantungan masa jalan |
+| [Dokumen Projek](Project-Documents-ms) | Lihat dokumen perancangan dan semakan projek |
 
 Kod, ujian dan dokumen projek berada dalam [repositori](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel).

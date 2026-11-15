@@ -6,30 +6,31 @@
 | ID | DICT-001 |
 | CrossReference | [BC-001], [SA-001], [DM-002] |
 | Language | en |
-| Domain | it |
+| Domain | education |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [f1b3c03] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [DM-002] | [259d017] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [DM-002] | [259d017] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Set the domain to education and the rows in ascending order of the PO term (QC-DICT-001 criteria 7 and 8); the terms and definitions are unchanged; reviewed in autonomous mode, not independent | pending |
 ---
 
 ## Purpose and Scope
 
-Maps each Product Owner (PO) term of the squirrel census project to its professional IT term. PO language: English (`en`), domain `it`. It covers the terms of the Business Case, Stakeholder Analysis, milestones, user story, use case and Domain Model.
+Maps each Product Owner (PO) term of the squirrel census project to its professional IT term. PO language: English (`en`), domain `education`. It covers the terms of the Business Case, Stakeholder Analysis, milestones, user story, use case and Domain Model.
 
 ## Dictionary
 
 | PO term | Language | IT term | Definition | Used as PO term in | Used as IT term in |
 | --- | --- | --- | --- | --- | --- |
 | Census file | en | source file | The file with the 2018 squirrel census that the participant supplies to the program. | BC, SA, MIL, user story (US), use case (UC), domain model (DM) | system sequence diagram (SSD), source code |
-| Squirrel sighting | en | sighting row | One recorded observation of one squirrel in the census file. | BC, MIL, US, UC, DM | SSD, source code |
-| Fur colour | en | fur_color | The primary fur colour of a squirrel: Gray, Cinnamon or Black. | BC, SA, MIL, US, UC, DM | SSD, source code |
 | Colour count | en | color_count | The number of squirrel sightings with one fur colour. | BC, MIL, US, UC, DM | SSD, source code |
+| Fur colour | en | fur_color | The primary fur colour of a squirrel: Gray, Cinnamon or Black. | BC, SA, MIL, US, UC, DM | SSD, source code |
+| Participant | en | command line user | The course participant who runs the program on the census file. | BC, SA, US, UC | SSD |
+| Squirrel sighting | en | sighting row | One recorded observation of one squirrel in the census file. | BC, MIL, US, UC, DM | SSD, source code |
 | Summary | en | summary table | The table of fur colours and their counts. | BC, MIL, US, UC, DM | SSD, source code |
 | Summary file | en | output file | The file the summary is written to. | BC, MIL, US, UC, DM | SSD, source code |
-| Participant | en | command line user | The course participant who runs the program on the census file. | BC, SA, US, UC | SSD |
 
 ## Rules
 
