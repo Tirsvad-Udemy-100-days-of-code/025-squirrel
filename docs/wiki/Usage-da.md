@@ -1,4 +1,4 @@
-🌐 [English](Usage) · **Dansk** · [Bahasa Melayu](Usage.ms)
+[English](Usage) · **Dansk** · [Bahasa Melayu](Usage-ms)
 
 # Brug
 

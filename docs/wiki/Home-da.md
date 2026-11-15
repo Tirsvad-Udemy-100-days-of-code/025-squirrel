@@ -1,4 +1,4 @@
-🌐 [English](Home) · **Dansk** · [Bahasa Melayu](Home.ms)
+[English](Home) · **Dansk** · [Bahasa Melayu](Home-ms)
 
 # Egern-optælling
 
@@ -8,8 +8,9 @@ Dag 25 i Udemys *100 Days of Code: The Complete Python Pro Bootcamp*: tæl egern
 
 | Side | Læs den, når du vil |
 | --- | --- |
-| [Installation](Install.da) | Oprette et `.venv` og installere projektet på Windows PowerShell, Linux Debian eller macOS |
-| [Brug](Usage.da) | Køre programmet og testene |
-| [Beskrivelse](Description.da) | Forstå hvordan koden er bygget, og hvorfor den ikke har kørselsafhængigheder |
+| [Installation](Install-da) | Oprette et `.venv` og installere projektet på Windows PowerShell, Linux Debian eller macOS |
+| [Brug](Usage-da) | Køre programmet og testene |
+| [Beskrivelse](Description-da) | Forstå hvordan koden er bygget, og hvorfor den ikke har kørselsafhængigheder |
+| [Projektdokumenter](Project-Documents-da) | Se projektets plan- og gennemgangsdokumenter |
 
 Koden, testene og projektdokumenterne ligger i [repositoryet](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel).

@@ -4,13 +4,14 @@
 | Key | Value |
 | --- | --- |
 | ID | TM-001 |
-| CrossReference | [BC-001]
+| CrossReference | [BC-001], [SA-001], [PP-001], [DICT-001], [MIL-005] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-033 (RC-026 to RC-033 added)<br>Version History row added for each change batch since the first version | [c88434c] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-036 (MIL-001, MIL-003 and MIL-004 link fix) | [fa5bb84] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-033 (RC-026 to RC-033 added)<br>Version History row added for each change batch since the first version | [c88434c] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-036 (MIL-001, MIL-003 and MIL-004 link fix) | [fa5bb84] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline milestone, the wiki row, the new review records, the concern coverage and the domain education for the changed documents; set the CrossReference row; reviewed in autonomous mode, not independent | [6a931f9] |
 
 ---
 
@@ -24,14 +25,16 @@ updated whenever an artifact instance is created or reviewed.
 
 | Artifact Instance | Type | Language | Domain | Upstream (Backward Link) | Downstream (Forward Link) | Last Reviewed (RC-ID) |
 | --- | --- | --- | --- | --- | --- | --- |
-| [BC-001] | Business Case | en | it | - | [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-001], [RC-019], [RC-026] |
-| [SA-001] | Stakeholder Analysis | en | it | [BC-001] | [PP-001] | [RC-002] |
-| [PP-001] | Project Plan | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | - (no checklist; accepted by S01 in chat) |
-| [MIL-001] | Milestone | en | it | [BC-001], [PP-001] | - | [RC-003], [RC-020], [RC-028], [RC-033], [RC-034] |
-| [MIL-002] | Milestone | en | it | [BC-001], [PP-001], [MIL-001] | - | [RC-004], [RC-021] |
-| [MIL-003] | Milestone | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-005], [RC-022], [RC-035] |
-| [MIL-004] | Milestone | en | it | [BC-001], [PP-001], [MIL-003] | - | [RC-006], [RC-023], [RC-027], [RC-036] |
-| [DICT-001] | Domain Dictionary | en | it | [BC-001], [SA-001] | - | [RC-007], [RC-018] |
+| [BC-001] | Business Case | en | education | - | [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004], [MIL-005] | [RC-037] (Go, re-review of the whole document), [RC-001], [RC-019], [RC-026] |
+| [SA-001] | Stakeholder Analysis | en | education | [BC-001] | [PP-001] | [RC-038] (Go, re-review of the whole document), [RC-002] |
+| [PP-001] | Project Plan | en | education | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004], [MIL-005] | [RC-039] (Go, review of the whole document; the plan had no review record before) |
+| [MIL-001] | Milestone | en | education | [BC-001], [PP-001] | - | [RC-041] (Go, re-review after the metadata change), [RC-003], [RC-020], [RC-028], [RC-033], [RC-034] |
+| [MIL-002] | Milestone | en | education | [BC-001], [PP-001], [MIL-001] | - | [RC-042] (Go, re-review after the metadata change), [RC-004], [RC-021] |
+| [MIL-003] | Milestone | en | education | [BC-001], [PP-001], [MIL-002] | - | [RC-043] (Go, re-review after the metadata change), [RC-005], [RC-022], [RC-035] |
+| [MIL-004] | Milestone | en | education | [BC-001], [PP-001], [MIL-003] | [MIL-005] | [RC-044] (Go, re-review after the metadata change), [RC-006], [RC-023], [RC-027], [RC-036] |
+| [MIL-005] | Milestone | en | education | [BC-001], [PP-001], [MIL-004] | - | [RC-045] (Go) |
+| Wiki | Wiki | en, da, ms | education | [BC-001], [MIL-005] | - | [RC-046] (Go-with-conditions) |
+| [DICT-001] | Domain Dictionary | en | education | [BC-001], [SA-001] | - | [RC-040] (Go, re-review after the change of domain and order), [RC-007], [RC-018] |
 | [UCD-001] | Use Case Diagram | en | it | [SA-001], [BC-001] | [US-001], [UC-001] | [RC-011] |
 | [US-001] | User Story | en | it | [UCD-001], [BC-001], [MIL-002] | [UC-001] | [RC-012] |
 | [UC-001] | Use Case | en | it | [UCD-001], [US-001], [SA-001] | [SSD-001], [DM-001] | [RC-013] |
@@ -44,10 +47,24 @@ updated whenever an artifact instance is created or reviewed.
 | `tests/test_workflow.py` | Python Source Code | - | - | [MIL-001], [RC-010] | - | [RC-029] |
 | `.gitea/workflows/ci.yml` | CI Workflow | - | - | [MIL-001] | - | [RC-009], [RC-010], [RC-025], [RC-030], [RC-031], [RC-032] |
 
+## Concern Coverage
+
+| Concern (CN-ID) | Views that answer it | Decisions (ADR) | Quality check (TP) | Status |
+| --- | --- | --- | --- | --- |
+| CN-001 | [US-001], [UC-001], [MIL-002] | - | - | Covered |
+| CN-002 | [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004], [MIL-005] | - | - | Covered |
+| CN-003 | [MIL-002], [DM-002] | - | - | Covered |
+| CN-004 | [MIL-003] | - | - | Covered |
+| CN-005 | [MIL-001], [MIL-003], [MIL-004] | - | - | Covered |
+| CN-006 | [MIL-001], [MIL-002] | [ADR-0001] | - | Covered |
+| CN-007 | [MIL-005] (criteria 1, 3, 4 and 5) | - | - | Covered |
+
 ## Coverage Notes
 
 - `-` in Upstream means foundational; in Downstream, nothing is built on it yet; in Last Reviewed, no `RC-*` exists yet.
 - No instance of OC, SD, DCD, ERD or KPI; the project creates none (see RC-018).
+- The domain of the Business Case, Stakeholder Analysis, Project Plan, dictionary and milestones is `education` since [MIL-005]; the earlier review records state the former domain `it` as it was at the time. The use case documents, the user story, the system sequence diagram and the domain models keep the domain `it`.
+- The review records and this matrix have no QC checklist for themselves and are not reviewed.
 
 ---
 
@@ -104,3 +121,15 @@ updated whenever an artifact instance is created or reviewed.
 [RC-035]: ./reviews/rc-035-mil-003-sa-link.md
 [RC-036]: ./reviews/rc-036-mil-004-sa-link.md
 [fa5bb84]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/fa5bb84025ca0fa1957434d34b0b678280a3abe5
+[MIL-005]: ../milestones/mil-005-framework-baseline.md
+[RC-037]: ./reviews/rc-037-business-case-baseline.md
+[RC-038]: ./reviews/rc-038-stakeholder-analysis-baseline.md
+[RC-039]: ./reviews/rc-039-project-plan-baseline.md
+[RC-040]: ./reviews/rc-040-dictionary-baseline.md
+[RC-041]: ./reviews/rc-041-milestone-001-baseline.md
+[RC-042]: ./reviews/rc-042-milestone-002-baseline.md
+[RC-043]: ./reviews/rc-043-milestone-003-baseline.md
+[RC-044]: ./reviews/rc-044-milestone-004-baseline.md
+[RC-045]: ./reviews/rc-045-milestone-005.md
+[RC-046]: ./reviews/rc-046-wiki.md
+[6a931f9]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/6a931f9675858d8031a88c3db7f14fb07468d68e

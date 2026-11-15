@@ -1,8 +1,8 @@
-🌐 [English](Install) · **Dansk** · [Bahasa Melayu](Install.ms)
+**English** · [Dansk](Install-da) · [Bahasa Melayu](Install-ms)
 
-# Installation
+# Install
 
-Projektet kræver **Python 3.13 eller nyere**. Det har ingen kørselsafhængigheder; `pytest`, `ruff`, `mypy`, `yamllint` og `actionlint` er udviklingsværktøjer.
+The project needs **Python 3.13 or later**. It has no runtime dependencies; `pytest`, `ruff`, `mypy`, `yamllint` and `actionlint` are development tools.
 
 ## Windows PowerShell
 
@@ -15,7 +15,7 @@ python -m pip install -e ".[dev]"
 
 ## Linux Debian
 
-På Debian 13 (trixie) eller nyere er `python3` 3.13:
+On Debian 13 (trixie) or later, `python3` is 3.13:
 
 ```bash
 sudo apt install python3 python3-venv
@@ -25,7 +25,7 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-På Debian 12 (bookworm) er `python3` 3.11, og `pip` nægter at installere projektet (`requires a different Python`). Hent Python 3.13 med [uv](https://docs.astral.sh/uv/) og brug den til `.venv`:
+On Debian 12 (bookworm), `python3` is 3.11 and `pip` refuses to install the project (`requires a different Python`). Get Python 3.13 with [uv](https://docs.astral.sh/uv/) and use it for the `.venv`:
 
 ```bash
 sudo apt install python3 python3-venv
@@ -47,4 +47,4 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-Næste: [Brug](Usage.da).
+Next: [Usage](Usage).

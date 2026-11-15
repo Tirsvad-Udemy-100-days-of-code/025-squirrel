@@ -6,13 +6,14 @@
 | ID | MIL-004 |
 | CrossReference | [BC-001], [US-001], [SA-001] |
 | Language | en |
-| Domain | it |
+| Domain | education |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Corrected the wiki folder `docs/wiki/` to `wiki/` | [d85cfe5] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the missing link definition and CrossReference for [SA-001] | [fa5bb84] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the missing link definition and CrossReference for [SA-001] | [fa5bb84] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Set the domain to education (metadata only; content unchanged); reviewed in autonomous mode, not independent | [6a931f9] |
 ---
 
 ## Purpose
@@ -73,3 +74,4 @@ Wiki pages `Home`, `Install`, `Usage` and `Description` in English plus `-da` an
 [d85cfe5]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/d85cfe5c4b62b2e1759f1c47b25bdb787ba6fd68
 [SA-001]: ../stakeholder-analysis.md
 [fa5bb84]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/fa5bb84025ca0fa1957434d34b0b678280a3abe5
+[6a931f9]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/6a931f9675858d8031a88c3db7f14fb07468d68e
