@@ -13,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [UCD-001] | [259d017] |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Corrected the wiki folder `docs/wiki/` to `wiki/` | [d85cfe5] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective 6, success criterion 6, a scope item, a risk, an assumption and a constraint exception for the baseline milestone MIL-005; corrected the wiki folder in the wiki risk to `docs/wiki/`; set the domain to education; reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective 6, success criterion 6, a scope item, a risk, an assumption and a constraint exception for the baseline milestone MIL-005; corrected the wiki folder in the wiki risk to `docs/wiki/`; set the domain to education; reviewed in autonomous mode, not independent | [6a931f9] |
 ---
 
 ## Executive Summary
@@ -147,3 +147,4 @@ Proceed — the scope is small, the risks are mitigated and the result is direct
 [SA-001]: ./stakeholder-analysis.md
 [PP-001]: ./project-plan.md
 [MIL-005]: ./milestones/mil-005-framework-baseline.md
+[6a931f9]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/6a931f9675858d8031a88c3db7f14fb07468d68e

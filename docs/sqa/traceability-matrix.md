@@ -11,7 +11,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-033 (RC-026 to RC-033 added)<br>Version History row added for each change batch since the first version | [c88434c] |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Last Reviewed updated up to RC-036 (MIL-001, MIL-003 and MIL-004 link fix) | [fa5bb84] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline milestone, the wiki row, the new review records, the concern coverage and the domain education for the changed documents; set the CrossReference row; reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline milestone, the wiki row, the new review records, the concern coverage and the domain education for the changed documents; set the CrossReference row; reviewed in autonomous mode, not independent | [6a931f9] |
 
 ---
 
@@ -132,3 +132,4 @@ updated whenever an artifact instance is created or reviewed.
 [RC-044]: ./reviews/rc-044-milestone-004-baseline.md
 [RC-045]: ./reviews/rc-045-milestone-005.md
 [RC-046]: ./reviews/rc-046-wiki.md
+[6a931f9]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/6a931f9675858d8031a88c3db7f14fb07468d68e

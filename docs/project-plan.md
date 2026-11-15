@@ -13,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | CrossReference: added [US-001] | [259d017] |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Corrected the wiki folder `docs/wiki/` to `wiki/` | [d85cfe5] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline gateway G5 (MIL-005), its schedule row, scope coverage, dependency, risk and Gantt entries and the No-Go rule; corrected the wiki folder in the wiki risk to `docs/wiki/`; added an open issue about the baseline; set the domain to education; reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline gateway G5 (MIL-005), its schedule row, scope coverage, dependency, risk and Gantt entries and the No-Go rule; corrected the wiki folder in the wiki risk to `docs/wiki/`; added an open issue about the baseline; set the domain to education; reviewed in autonomous mode, not independent | [6a931f9] |
 ---
 
 ## Purpose
@@ -110,3 +110,4 @@ A No-Go at a gateway stops the later gateways; their dates move by the days the 
 [d85cfe5]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/d85cfe5c4b62b2e1759f1c47b25bdb787ba6fd68
 [MIL-005]: ./milestones/mil-005-framework-baseline.md
 [MS-534]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/milestone/534
+[6a931f9]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-squirrel/commit/6a931f9675858d8031a88c3db7f14fb07468d68e
